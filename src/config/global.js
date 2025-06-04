@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '1',
+    tituloUnidad: 'Fundamentos de la seguridad vial laboral',
   },
   menuPrincipal: {
     menu: [
@@ -15,70 +15,23 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Fundamentos y generalidades de la seguridad vial',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo:
+          'Estadísticas y panorama actual de la accidentalidad vial labora',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Marco Legal y Normativo de la Seguridad Vial en Colombia',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -118,26 +71,124 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
+        'Decreto 1079 del 2015 Sector Transporte. (2015). Por medio del cual se expide el Decreto Único Reglamentario del Sector Transporte. ',
       link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=77889 ',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Decreto 1430 del 2022. (2022). Por medio del cual se aprueba el "Plan Nacional de Seguridad Vial 2022-2023. ',
+      link: 'https://www.ani.gov.co/decreto-1430-de-2022',
+    },
+    {
+      referencia:
+        'Consejo Colombiano de Seguridad. (s.f.). Cifras de siniestralidad laboral en Colombia – Fasecolda. ',
+      link: 'https://ccs.org.co/observatorio/Home/fasecolda ',
+    },
+    {
+      referencia:
+        'Caicedo Camacho, D. A. (2025). Esta es la radiografía de los accidentes de tránsito en 2024: cifra superó el promedio de los últimos 5 años. El Tiempo. ',
+      link:
+        'https://www.eltiempo.com/justicia/cifra-de-victimas-de-accidentes-viales-en-2024-supero-el-promedio-de-los-ultimos-cinco-anos-3416561 ',
+    },
+    {
+      referencia:
+        'Giraldo, C. (2025). En el país hubo un accidente laboral fatal diario en promedio en 2024, según la CCS. Portafolio.co. ',
+      link:
+        'https://www.portafolio.co/negocios/industrias/en-el-pais-hubo-un-accidente-laboral-fatal-diario-en-promedio-en-2024-ccs-626959 ',
+    },
+    {
+      referencia:
+        'Resolución 20223040040595 de 2022. (2022). Por la cual se adopta la metodología para el diseño, implementación y verificación de los Planes Estratégicos de Seguridad Vial y se dictan otras disposiciones. ',
+      link:
+        'https://www.cancilleria.gov.co/sites/default/files/Normograma/docs/resolucion_mintransporte_40595_2022.htm. ',
+    },
+    {
+      referencia:
+        'Decreto 1252 del 2021. (2021). Por el cual se modifica el literal a del artículo 2.3.2.1 del Título 2 de la Parte 3 del Li­bro 2 y se sustituye el Capítulo 3 del Título 2 de la Parte 3 del Libro 2 del Decreto 1079 de 2015, único Reglamentario del Sector Transporte, en lo relacionado con los Planes Estratégicos de Seguridad Vial. ',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=172386 ',
+    },
+    {
+      referencia:
+        'ICONTEC (2014). Sistemas de gestión de la seguridad vial. Requisitos con guía para uso. (NTC-ISO 39001:2014).',
+      link: 'https://es.scribd.com/document/619624195/NTC-39001-2014-1',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Accidente de tránsito',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Suceso imprevisto, en la vía, que involucra vehículos, personas y daños.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Comportamiento seguro',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Conductas responsables que reducen el riesgo de siniestros viales.',
+    },
+    {
+      termino: 'Educación vial',
+      significado:
+        'Procesos formativos que promueven el respeto a normas y prácticas seguras.',
+    },
+    {
+      termino: 'Factores de riesgo',
+      significado:
+        'Condiciones o conductas que aumentan la probabilidad de accidentes.',
+    },
+    {
+      termino: 'Factores protectores',
+      significado:
+        'Elementos que disminuyen el riesgo de siniestralidad en la vía.',
+    },
+    {
+      termino: 'Infraestructura vial',
+      significado:
+        'Conjunto de obras físicas que facilitan y regulan la circulación vial.',
+    },
+    {
+      termino: 'Ley 2251 del 2022',
+      significado:
+        'Ley que protege a los usuarios vulnerables y promueve Visión Cero.',
+    },
+    {
+      termino: 'Marco normativo',
+      significado:
+        'Conjunto de leyes, decretos y resoluciones que regulan la seguridad vial.',
+    },
+    {
+      termino: 'Movilidad sostenible',
+      significado:
+        'Sistema de transporte seguro, accesible y ambientalmente responsable.',
+    },
+    {
+      termino: 'Normas de tránsito',
+      significado:
+        'Reglas legales que regulan la circulación vial de personas y vehículos.',
+    },
+    {
+      termino: 'PESV',
+      significado:
+        'Plan Estratégico de Seguridad Vial, implementado por las organizaciones.',
+    },
+    {
+      termino: 'Prevención',
+      significado:
+        'Acciones orientadas a evitar la ocurrencia de accidentes de tránsito.',
+    },
+    {
+      termino: 'Resolución 40595 del 2022',
+      significado:
+        'Norma que establece la metodología para diseñar y verificar los PESV.',
+    },
+    {
+      termino: 'Seguridad vial',
+      significado:
+        'Estrategias y medidas para proteger la vida de los usuarios de las vías.',
+    },
+    {
+      termino: 'Visión Cero',
+      significado: 'Enfoque que plantea que ninguna muerte vial es aceptable.',
     },
   ],
 }
