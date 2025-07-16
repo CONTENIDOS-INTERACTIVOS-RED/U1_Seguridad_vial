@@ -1,1 +1,1 @@
-module.exports = 'CIRED'
+module.exports = 'Fundamentos de la seguridad vial laboral'
